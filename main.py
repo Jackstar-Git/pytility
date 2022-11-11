@@ -1,6 +1,5 @@
 import math
 import sys
-import time
 
 class FixNumber:
     """This function is used to fix Pythons floating-point error."""
@@ -61,6 +60,3 @@ def toString(arr):
         data += str(i)
     return data
 
-
-if __name__ == '__main__':
-    print(compare_floats(2, 4, tolerance=2))
